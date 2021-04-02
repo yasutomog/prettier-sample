@@ -27,3 +27,5 @@ fooBar(
   },
   profile
 );
+
+var arr = ['foo', 'bar'];
