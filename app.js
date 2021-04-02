@@ -23,7 +23,7 @@ const fooBar = (a, b, c) => {
 fooBar(
   111,
   {
-    hoge: 'hoge!',
+    hoge: 'fuga!',
   },
   profile
 );
