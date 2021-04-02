@@ -20,6 +20,9 @@ const fooBar = (a, b, c) => {
   console.log(c);
 };
 
+Person.prototype.name;
+hoge();
+
 fooBar(
   111,
   {
@@ -28,8 +31,11 @@ fooBar(
   profile
 );
 
-// Check the user's job title
-if ((user.jobTitle = 'manager')) {
-  // user.jobTitle is now incorrect
-  debugger;
-}
+(function () {
+  'use strict';
+  var func1 = function (a, b) {
+    return a + b;
+  };
+  var result = func1(1, 3);
+  console.log(result);
+})();
