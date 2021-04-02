@@ -28,4 +28,7 @@ fooBar(
   profile
 );
 
-var arr = ['foo', 'bar'];
+// Check the user's job title
+if ((user.jobTitle = 'manager')) {
+  // user.jobTitle is now incorrect
+}
