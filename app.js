@@ -38,4 +38,6 @@ fooBar(
   };
   var result = func1(1, 3);
   console.log(result);
+  let aaa = 11231243124;
+  console.log(aaa);
 })();
