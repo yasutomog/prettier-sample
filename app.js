@@ -33,6 +33,10 @@ fooBar(
 
 (function () {
   'use strict';
+
+  let hogehogehogeho = 2222222;
+  console.log(hogehogehogeho);
+
   var func1 = function (a, b) {
     return a + b;
   };
